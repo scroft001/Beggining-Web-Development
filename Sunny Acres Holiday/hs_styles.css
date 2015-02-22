@@ -1,0 +1,112 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Review Assignment
+
+   Sunny Acres Text and Color Styles
+   Author: Steven Croft
+   Date:   3/5/2014
+
+   Filename:         hs_styles.css
+   Supporting Files: CloisterBlack.eot, CloisterBlack.svg,
+                     CloisterBlack.ttf, CloisterBlack.woff
+
+*/
+
+
+
+@font-face 
+{
+   font-family: 'CloisterBlack';
+   src: url('CloisterBlack.eot');
+   src: local('?'), 
+        url('CloisterBlack.woff') format('woff'), 
+        url('CloisterBlack.ttf') format('truetype'), 
+        url('CloisterBlack.svg#cloister') format('svg');
+}
+
+/* Body Styles */
+body 
+{
+	background-color: white;
+	font-family: TrebuchetMS, Helvetica, sans-serif;
+}
+/* heading styles */
+section h1
+{
+	background-color: rgb(148, 51, 62);
+	color: white;
+	font-family: CloisterBlack, fantasy, serif;
+	font-size: 2.5em;
+	font-weight: normal;
+	letter-spacing: 0.3em;
+	line-height: 2em;
+	text-indent: 5px;
+	
+}
+
+section h2 
+{
+	background-color: rgb(182, 134, 52);
+	color: white;
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: normal;
+	letter-spacing: 0.7em;
+	line-height: 1.8em;
+	text-indent: 1em;
+}
+/* navigation styles */
+nav ul
+{
+	list-style-type: none;
+	padding-left: 0em;
+	background-color: rgb(248, 175, 175);
+	line-height: 3.5em;
+	text-indent: 5px;
+}
+
+nav ul li:hover
+{
+	background-color: rgb(148, 51, 62);
+}
+
+a:hover{color: yellow;}
+
+nav ul li:first-of-type
+{
+	font-size: 150%;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+/* section styles */
+section h2+ul
+{
+	list-style-image: url(flake.png);
+}
+
+/* Footer Styles */
+footer address
+{
+	background-color: rgb(148, 51, 62);
+	color: white;
+	color: rgba(255, 255, 255, 0.8);
+	font: normal small-caps 0.8em/4em 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	text-align: center;
+}
+/* figure styles */
+figure
+{
+	background-color: rgb(248, 175, 175);
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+}
+
+
+
