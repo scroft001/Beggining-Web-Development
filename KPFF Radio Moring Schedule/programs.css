@@ -1,0 +1,110 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: Steven Croft
+   Date:  4/2/2014 
+
+   Filename:         programs.css
+   Supporting Files: 
+
+*/
+
+table.programs
+{
+	border: 2px outset rgb(153, 0, 153);
+	border-collapse: collapse;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 0.7em;
+	width: 100%;
+}
+
+table.programs th, table.programs td
+{
+	border: 1px solid gray;
+}
+
+/* Table header styles */
+
+table.programs thead
+{
+	background-color: rgb(105, 177, 60);
+	color: white;
+	color: rgb(255, 255, 255, 0.5);
+}
+th:nth-of-type(7), th:nth-of-type(8)
+{
+	background-color: rgb(153, 0, 153);
+}
+
+
+
+table.programs thead tr
+{
+	font-size: 0.7em;
+	border: 1px solid gray;
+}
+
+/* Table body style */
+table.programs tbody tr
+{
+	height: 25px;
+}
+
+table.programs tbody td
+{
+	padding: 2px;
+	vertical-align: top;
+	font-size: 0.7em;
+	border: 1px solid gray;
+}
+
+/* Styles for the time column */
+
+table.programs col.timeColumn
+{
+	background-color: rgb(215, 205, 151);
+	width: 10%;
+}
+
+
+/* Styles for the remaining columns */
+
+table.programs col.wDayColumns
+{
+	width: 11%;
+	background-color: rgb(236, 255, 211);
+}
+table.programs col.wEndColumns
+{
+	width: 17%;
+	background-color: rgb(255, 231, 255);
+}
+
+/* Styles for the table caption */
+
+table.programs caption
+{
+	caption-side: bottom;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+/* Two column layout for the introductory paragraph */
+
+section#intro p
+{
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-count: 3;
+	
+	-moz-column-gap: 20px;
+	-webkit-column-gap: 20px;
+	comlumn-gap: 20px;
+	
+	-moz-column-rule: 1px solid black;
+	-webkit-column-rule: 1px solid black;
+	column-rule: 1px solid black;
+}
