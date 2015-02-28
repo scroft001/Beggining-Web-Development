@@ -1,0 +1,186 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Tutorial Case
+
+   Survey Forms Style Sheet
+   Author: Steven Croft
+   Date:  4/3/2014 
+
+   Filename:         forms.css
+   Supporting Files: customer.png, go.png, stop.png
+
+*/
+
+/* Field set styles */
+
+fieldset
+{
+	background-color: rgb(255, 246, 205);
+	border: 1px solid rgb(233, 69, 0);
+	float: left;
+	margin: 10px 0px 10px 2.5%;
+	width: 46%;
+}
+
+legend
+{
+	background-color: rgb(233, 69, 0);
+	color: white;
+	padding: 3px 0px;
+	text-indent: 5px;
+	width: 100%;
+}
+
+/* Label Styles */
+label
+{
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+}
+
+/* Input control styles */
+
+input
+{
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 50%;
+}
+
+input#state
+{
+	width: 50px;
+}
+
+/* Selection list styles */
+select
+{
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+}
+
+/* Option button styles */
+fieldset.optionGroup
+{
+	border-width: 0px;
+}
+
+fieldset.optionGroup label
+{
+	display: inline;
+	float: none;
+	margin: 0px 3px 0px 0px;
+	width: 30px;
+}
+
+fieldset.optionGroup input
+{
+	display: inline;
+	float: none;
+	margin: 0px 20px 0px 0px;
+	width: 20px;
+}
+
+/* Text area styles */
+
+textarea
+{
+	display: block;
+	font-size: 0.9em;
+	float: left;
+	height: 150px;
+	margin: 10px 0px;
+	width: 50%;
+}
+
+/* check box styles */
+
+#newsletter
+{
+	color: rgb(233, 69, 0);
+	float: none;
+	margin: 10px auto;
+	text-align: center;
+	width:90%;
+}
+
+#newsletter input
+{
+	display: inline;
+	float: none;
+	width: 20px;
+}
+
+/*Number input box styles */
+
+#ordersPerMonth
+{
+	width: 70px;
+}
+
+/*Range slider styles */
+
+label.sliderLabel
+{
+	clear: none;
+	font-size: 0.7em;
+	margin: 10px 0px;
+	text-align: center;
+	width: 10px;
+}
+
+input[type="range"]
+{
+	width: 150px;
+}
+
+/* Button styles */
+
+form p
+{
+	text-align: center;
+}
+
+input[type="submit"], input[type="reset"]
+{
+	display: inline;
+	float: none;
+	height: 40px;
+	width: 200px;
+}
+
+/* Validation styles */
+
+input:focus, select:focus, textarea:focus
+{
+	background-color: rgb(220, 255, 220);
+}
+
+input:focus:valid
+{
+	background: rgb(220, 255, 220) ulr(go.png) bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+input:focus:invalid
+{
+	background: rgb(255, 232, 233) url(stop.png) bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-backgound-size: contain;
+	background-size: contain;
+}
