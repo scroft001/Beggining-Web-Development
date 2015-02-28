@@ -1,0 +1,23 @@
+                  <param name="text1" value="THE FILMS" />
+                  <param name="text2" value="of FRED ASTAIRE" />
+                  <param name="text3" value="----- o -----" />
+                  <param name="text4" value="" />
+                  <param name="text5" value="Flying Down to Rio  ... (1933)" />
+                  <param name="text6" value="The Gay Divorcee  ... (1934)" /> 
+                  <param name="text7" value="Roberta  ... (1935)" />
+                  <param name="text8" value="Top Hat  ... (1935)" />
+                  <param name="text9" value="Swing Time  ... (1936)" />
+                  <param name="text10" value="Shall We Dance  ... (1937)" />
+                  <param name="text11" value="The Story of Vernon and Irene Castle  ... (1939)" />
+                  <param name="text12" value="Holiday Inn  ... (1942)" />
+                  <param name="text13" value="Easter Parade  ... (1948)" />
+                  <param name="text14" value="The Barkleys of Broadway  ... (1949)" />
+                  <param name="text15" value="Three Little Words  ... (1950)" />
+                  <param name="text16" value="Royal Wedding  ... (1951)" />
+                  <param name="text17" value="Daddy Long Legs  ... (1955)" />
+                  <param name="text18" value="Funny Face  ... (1957)" />
+                  <param name="text19" value="Silk Stockings  ... (1957)" />
+                  <param name="text20" value="On the Beach  ... (1959)" />
+                  <param name="text21" value="Finian's Rainbow  ... (1968)" />
+                  <param name="text22" value="The Towering Inferno  ... (1974)" />
+                  <param name="text23" value="Ghost Story  ... (1981)" /> 

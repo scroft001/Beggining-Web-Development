@@ -1,0 +1,19 @@
+                  <param name="text1" value="Royal Wedding" />
+                  <param name="text2" value="Produced by: Arthur Freed" />
+                  <param name="text3" value="Directed by: Stanley Donen" />
+                  <param name="text4" value="Written by: Alan Jay Lerner" />
+                  <param name="text5" value="Original Music by: Burton Lane" />
+                  <param name="text6" value="---- o ----" />
+                  <param name="text7" value="" />
+                  <param name="text8" value="Fred Astaire ... Tom Bowen" />
+                  <param name="text9" value="Jane Powell ... Ellen Bowen" />
+                  <param name="text10" value="Peter Lawford ... Lord John Brindale" />
+                  <param name="text11" value="Sarah Churchill ... Anne Ashmond" />
+                  <param name="text12" value="Keenan Wynn ... Irving Klinger" />
+                  <param name="text13" value="Keenan Wynn ... Edgar Klinger" />
+                  <param name="text14" value="Albert Sharpe ... James Ashmond" />
+                  <param name="text15" value="Eddie ... Wilson Benge" />
+                  <param name="text16" value="Charles Gordon ... Francis Bethencourt" />
+                  <param name="text17" value="Dick ... William Cabanne" />
+                  <param name="text18" value="Harry ... Jimmy Fairfax" />
+                  <param name="text19" value="Billy ... John Hedloe" />
