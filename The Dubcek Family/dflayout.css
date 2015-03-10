@@ -1,0 +1,201 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Review Assignment
+
+   Dubceck Family Style Sheet
+
+   Filename:         dflayout.css
+   Supporting Files: tblogo.png
+
+*/
+
+/* Layout styles for desktop screen display */
+
+
+
+/* Body styles */
+
+body {
+   background-color: rgb(230, 252, 172);
+   margin: 0px auto;
+   width: 960px;
+}
+
+
+
+/* Header styles */
+   
+header {
+   background: rgb(18, 15, 12) url(tblogo.png) top left no-repeat;
+   border-bottom: 1px solid rgb(18, 15, 12);
+   height: 120px;
+   width: 100%;
+}
+
+header h1 {
+   line-height: 78px;
+   text-align: left;
+   visibility: hidden;
+   width: 100%;
+}
+
+
+/* Navigation list in header */
+
+header nav {
+   background-color: rgb(18, 15, 12);
+   height: 42px;
+   margin-left: 124px;
+}
+
+header nav li {
+   display: block;
+   float: left;
+   line-height: 42px;
+   text-align: center;
+   width: 20%;
+}
+
+header nav li a {
+   color: white;
+   font-variant: small-caps;
+   font-size: 12px;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   text-decoration: none;
+}
+
+header nav li a:hover {
+   color: rgb(230, 252, 171);
+}
+
+
+
+/* Page section styles */
+
+section#page {
+   background-color: white;
+   position: relative;
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+/* Page section navigation list styles */
+
+section#page nav.horizontal {
+   width: 100%;
+}
+
+section#page nav.horizontal li {
+   display: block;
+   float: left;
+   height: 20px;
+   width: 20%;
+}
+
+section#page nav.horizontal li a {
+   display: block;
+   border: 1px solid rgb(18, 15, 12);
+   color:white;
+   background-color: rgb(90, 127, 0);
+   text-align: center;
+   line-height: 20px;
+   font-size: 12px;
+}
+
+section#page nav.horizontal li:first-of-type a {
+   background-color: rgb(50, 97, 0);
+}
+
+
+
+/* Vertical navigation list styles */
+
+nav#familyLinks {
+   background-color: rgb(231, 231, 231);
+   position: absolute;
+   top: 22px;
+   left: 0px;
+   width: 280px;
+   height: 790px;
+}
+
+nav#familyLinks ul {
+   margin-left: 15px;
+}
+
+nav#familyLinks li {
+   display: block;
+   float: left;
+   margin: 10px;
+   width: 100px;
+}
+
+nav#familyLinks img {
+   border: 0px;
+   width: 100%;
+}
+
+nav#familyLinks span {
+   display: block;
+   font-size: 10px;
+   text-align: center;
+   margin: 7px auto;
+}
+
+nav#familyLinks a {
+   color: black;
+}
+
+
+
+/* Main section article styles */
+
+section#page article {
+   background-color: white;
+   position: absolute;
+   top: 22px;
+   left: 280px;
+   width: 680px;
+   height: 790px;
+}
+
+section#page article h1 {
+   color: rgb(90, 127, 0);
+   font-size: 42px;
+   font-family: 'Times New Roman', Times, serif;
+   letter-spacing: 5px;
+   text-align: center;
+   padding-top: 10px;
+   width: 100%;
+}
+
+section#page article img {
+   display: block;
+   margin: 5px auto;
+   width: 75%;
+}
+
+section#page article p {
+   font-size: 16px;
+   margin: 20px 30px 0px 20px;
+   text-align: justify;
+}
+
+/* Page footer styles */
+
+footer {
+   margin-top: 812px;
+   font-size: 10px;
+   border-top: 1px solid rgb(18, 15, 22);
+   padding-bottom: 20px;
+   padding-top: 10px;
+   word-spacing: 5px;
+   text-indent: 5px;
+}
+
+footer span {
+   float: right;
+   margin-right: 10px;
+}
+

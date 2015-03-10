@@ -1,0 +1,70 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Review Assignment
+
+   Special Effects style sheet
+   Author: Steven Croft
+   Date:   june 2014
+
+   Filename:         dfeffects.css
+   Supporting Files: paper.png
+
+*/
+
+
+/* navigation list inset shadows */
+
+nav#familyLinks
+{
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.6) -10px 0px 15px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.6) -10px 0px 15px;
+	box-shadow: inset rgba(0, 0, 0, 0.6) -10px 0px 15px;
+}
+nav#familyLinks img
+{
+	-moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px; /* : color offsetx offsety blur */
+	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;
+	box-shadow: rgba(0, 0, 0, 0.6) 10px 0px 15px;
+}
+
+nav#familyLinks img:hover
+{
+	-o-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	
+	opacity: 1.0;
+}
+
+/* Style rule to add a dark green vertical gradient to the background for the article element||
+background: gradient(start color, mid color %start after first color, final color %start after last color);*/
+
+article
+{
+	background: -o-linear-gradient(left, rgb(151, 151, 151), rgb(231, 231, 231));
+	background: -ms-linear-gradient(left, rgb(151, 151, 151), rgb(231, 231, 231));
+	background: -moz-linear-gradient(left, rgb(151, 151, 151) 20%, rgb(231, 231, 231));
+	background: -webkit-linear-gradient(left, rgb(151, 151, 151) 20%, rgb(231, 231, 231));
+	background: linear-gradient(left, rgb(151, 151, 151) 20%, rgb(231, 231, 231));
+}
+
+section#page article h1
+{
+	color: rgb(90, 127, 0); 
+	text-shadow: black 1px 1px 0px, rgba(30, 57, 0, 0.8) 5px 5px 10px; 
+}
+
+/*Border image style|| border-image: url(url) slice size of cut from the border image repeat whether the border slices should be stretched or tiled to cover the image */
+
+article img
+{
+	border-width: 10px;
+	
+	-o-border-image: url("paper.png") 70 repeat;
+	-moz-border-image: url("paper.png") 70 repeat;
+	-webkit-border-image: url("paper.png") 70 repeat;
+	border-image: url("paper.png") 70 repeat;
+}

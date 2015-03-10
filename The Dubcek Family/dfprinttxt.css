@@ -1,0 +1,55 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Review Assignment
+
+   Print Styles
+   Author: 
+   Date:   
+
+   Filename:         dfprint.css
+   Supporting Files: 
+
+*/
+
+
+/* Hide page elements that will not be printed */
+
+header, header nav.horizontal, section#page nav.horizontal, footer {
+   display: none;
+}
+
+/* Styles for the h1 heading */
+
+h1 {
+   font-size: 28pt;
+   text-align: center;
+   width: 100%;
+}
+
+/* Styles for the main photo */
+article img {
+   display: block;
+   margin: 0.5in auto;
+   width: 6in;
+}
+
+p {
+   font-size: 16pt;
+   margin: 0.2in;
+}
+
+nav#familyLinks li img {
+   width: 1.5in;
+}
+
+nav#familyLinks li span {
+   font-size: 16pt;
+   margin-left: 0.5in;
+}
+
+
+
+
+/* Setting the page breaks in the document */
+

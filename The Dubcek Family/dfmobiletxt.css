@@ -1,0 +1,138 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Review Assignment
+
+   Mobile Styles
+   Author: 
+   Date:   
+
+   Filename:         dfmobile.css
+   Supporting Files: tblogo_sm.png
+
+*/
+
+/* Styles to be used with mobile devices */
+
+
+
+/* Hide page elements that will not be displayed */
+
+header, header h1, header nav,  footer {
+   display: none;
+}
+
+/* Block styles */
+header, nav, article {
+   display: block;
+}
+
+/* Header styles */
+
+header {
+   background: rgb(18, 15, 12) url(tblogo_sm.png) center center no-repeat;
+
+   -o-background-size: contain;
+   -moz-background-size: contain;
+   -webkit-background-size: contain;
+   background-size: contain;
+
+   height: 50px;
+   width: 100%;
+}
+
+/* Page section navigation list styles */
+
+
+section#page nav.horizontal {
+   width: 100%;
+}
+
+section#page nav.horizontal li {
+   display: block;
+   float: left;
+   height: 20px;
+   margin: 0px;
+   width: 20%;
+}
+
+section#page nav.horizontal li a {
+   display: block;
+   border: 1px solid rgb(18, 15, 12);
+   color:white;
+   background-color: rgb(90, 127, 0);
+   text-align: center;
+   line-height: 20px;
+   font-size: 12px;
+   margin: 0px;
+}
+
+section#page nav.horizontal li:first-of-type a {
+   background-color: rgb(50, 97, 0);
+}
+
+
+   section#page article {
+      display: block;
+      margin: 0px auto;
+      width: 90%;
+   }
+
+
+   section#page article h1 {
+      font-size: 18px;
+      margin: 0px;
+      text-align: center;
+   }
+
+   section#page #family {
+      display: block;
+      margin: 5px auto;
+      width: 80%;
+   }
+
+   section#page article p {
+      font-size: 12px;
+      margin: 10px;
+   }
+
+   nav#familyLinks li span {
+      display: block;
+      width: 100%;
+      font-size: 8px;
+      margin: 5px 0px;
+      text-align: center;
+   }
+
+   nav#familyLinks li a {
+      color: black;
+   }
+
+   nav#familyLinks li img {
+      width: 100%;
+   }
+
+   section#page article p:last-of-type {
+      display: none;
+   }
+
+
+
+
+
+
+/* Styles under portrait orientation */
+
+
+
+
+
+
+
+
+/* Styles under landscape orientation */
+
+
+
+
+
