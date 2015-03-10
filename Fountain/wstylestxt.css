@@ -1,0 +1,111 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Review Assignment
+
+   Wizard Works Style Sheet
+
+   Author:    
+   Date:      
+
+   Filename:         wstyles.css
+   Supporting Files: 
+
+*/
+
+body {
+   background-color: white;
+   background-image: url(back.jpg); 
+   background-repeat: repeat-y;
+   font-size: 14px; 
+   margin-right: 20px;
+}
+
+h1, th {
+   font-family: sans-serif;
+}
+
+#head {
+   background-color: white; 
+   border-bottom: 2px solid black; 
+   position: absolute; 
+   top: 0px; 
+   left: 0px; 
+   font-size: 16px;
+   font-family: sans-serif; 
+   padding-top: 10px;
+   text-align: right;
+   width: 900px; 
+}
+
+#head img {
+   float: left;
+}
+
+#head a {
+   border: 5px outset white; 
+   background-color: blue; 
+   color: white; 
+   font-size: 10px; 
+   font-weight: bold;
+   text-decoration: none; 
+   text-align: center; 
+   padding: 2px; 
+   margin-left: 20px;
+   width: 100px; 
+}
+
+#head a:hover {
+   color: black; 
+   background-color: yellow; 
+   border: 5px inset white;
+}
+
+#linklist {
+   position: absolute; 
+   top: 125px; 
+   left: 0px; 
+   font-size: 12px; 
+   font-weight: bold; 
+   font-family: sans-serif; 
+   padding: 10px;
+   width: 140px;
+}
+
+#linklist a {
+   color: rgb(247,233,64); 
+   text-decoration: none; 
+   display: block;
+}
+
+#linklist a:hover {
+   color: white; 
+   text-decoration: underline;
+}
+
+#linklist .newgroup {
+   margin-top: 10px;
+}
+
+#main {
+   position: absolute; 
+   top: 125px; 
+   left: 160px; 
+   width: 720px;
+}
+
+address {
+   border-top: 2px solid black; 
+   font-style: normal; 
+   font-size: 10px; 
+   font-family: sans-serif; 
+   text-align: center;
+}
+
+address span {
+   color: blue;
+}
+
+img {
+   border-width: 0px;
+}
