@@ -1,0 +1,258 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Tutorial Case
+
+   Tree and Book Style Sheet
+
+   Filename:         layout.css
+   Supporting Files: graybar.png, tblogo.png
+
+*/
+
+/* Layout styles for desktop screen display */
+
+
+
+/* Body styles */
+
+body {
+   background-color: rgb(230, 252, 172);
+   margin: 0px auto;
+   width: 960px;
+}
+
+
+
+/* Header styles */
+   
+header {
+   background: rgb(18, 15, 12) url(tblogo.png) top left no-repeat;
+   border-bottom: 1px solid rgb(18, 15, 12);
+   height: 120px;
+   width: 100%;
+}
+
+header h1 {
+   line-height: 78px;
+   text-align: left;
+   visibility: hidden;
+   width: 100%;
+}
+
+
+/* Navigation list in header */
+
+header nav {
+   background-color: rgb(18, 15, 12);
+   height: 42px;
+   margin-left: 124px;
+}
+
+header nav li {
+   display: block;
+   float: left;
+   line-height: 42px;
+   text-align: center;
+   width: 20%;
+}
+
+header nav li a {
+   color: white;
+   font-variant: small-caps;
+   font-size: 12px;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   text-decoration: none;
+}
+
+header nav li a:hover {
+   color: rgb(230, 252, 171);
+}
+
+
+
+/* Page section styles */
+
+section#page {
+   background: white url(graybar.png) top left repeat-y;
+   float: left;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+
+
+/* Vertical navigation list styles */
+
+nav.vertical {
+   float: left;
+   padding-top: 10px;
+   padding-bottom: 20px;
+   width: 200px;
+}
+
+
+nav.vertical img {
+   display: block;
+   margin: 5px auto;
+}
+
+nav.vertical ul {
+   margin-left: 10px;
+}
+
+nav.vertical ul li {
+   font-size: 13px;
+   margin: 5px;
+}
+
+nav.vertical ul li.group {
+   margin-top: 20px;
+}
+
+nav.vertical ul li.sub {
+   margin-left: 20px;
+}
+
+nav.vertical ul li a {
+   color: rgb(51, 51, 51);
+}
+
+nav.vertical ul li a:hover {
+   color: rgb(90, 127, 0);
+   text-decoration: underline;
+}
+
+
+
+/* Main section styles */
+
+section#main {
+   background: ivory;
+   float: left;
+   position: relative;
+   top: 0px;
+   left: 0px;
+   width: 760px;
+}
+
+section#main h1 {
+   font-size: 42px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   padding-top: 10px;
+   width: 100%;
+}
+
+
+
+/* Main section navigation list styles */
+
+section#main nav {
+   width: 100%;
+}
+
+section#main nav li {
+   display: block;
+   float: left;
+   height: 20px;
+   width: 20%;
+}
+
+section#main nav li a {
+   display: block;
+   border: 1px solid rgb(18, 15, 12);
+   color:white;
+   background-color: rgb(90, 127, 0);
+   text-align: center;
+   line-height: 20px;
+   font-size: 12px;
+}
+
+section#main nav li:first-of-type a {
+   background-color: rgb(50, 97, 0);
+}
+
+
+
+/* Main section article styles */
+
+section#main article {
+   width: 300px;
+   height: 810px;
+   position: absolute;
+   top: 90px;
+   left: 230px;
+}
+
+
+
+/* Figure and photo styles */
+
+img#photo1 {
+   display: block;
+   width: 200px;
+   margin: 10px auto;
+}
+
+
+figure {
+   position: absolute;
+   width: 220px;
+   height: 303px;
+}
+
+figure img {
+   display: block;
+   width: 90%;
+   margin: 0px auto;
+}
+
+figure figcaption {
+   font-size: 12px;
+   font-style: italic;
+   line-height: 12px;
+   text-align: center;
+   padding: 5px 0px;
+}
+
+figure#photo2 {
+   top: 245px;
+   left: 10px;
+}
+
+figure#photo3 {
+   top: 245px;
+   left: 530px;
+}
+
+figure#photo4 {
+   top: 545px;
+   left: 105px;;
+}
+
+figure#photo5 {
+   top: 545px;
+   left: 455px;
+}
+
+
+
+
+/* Page footer styles */
+
+footer {
+   margin-top: 830px;
+   font-size: 10px;
+   border-top: 1px solid rgb(18, 15, 22);
+   padding-bottom: 20px;
+   padding-top: 10px;
+   word-spacing: 5px;
+   text-indent: 5px;
+}
+
+footer span {
+   float: right;
+   margin-right: 10px;
+}
+

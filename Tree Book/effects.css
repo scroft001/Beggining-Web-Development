@@ -1,0 +1,100 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Tutorial Case
+
+   Special Effects style sheet
+   Author: Steven Croft
+   Date:   5/22/2014
+
+   Filename:         effects.css
+   Supporting Files: borderimg.png
+
+*/
+
+/* Heading text styles */
+
+section#main h1
+{
+	color: rgb(90, 127, 0); 
+	text-shadow: black 1px 1px 0px, rgba(90, 127, 0, 0.7) 5px 5px 10px; 
+}
+
+/* Box Shadow styles */
+
+figure img /* everything labeled img do this to it */
+{
+	/* creates rounded corners and drop shadows for every inline image */
+	-moz-border-radius: 25px; /* mozilla extension border radius 25 pixels */
+	-webkit-border-radius: 25px; /*webkit extension border radius 25 pixels */
+	border-radius: 25px; /* all other support border radius 25 pixels */
+	
+	-moz-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px; /* : color offsetx offsety blur */
+	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+	box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+}
+
+section#main /* creates an interior beveled border for the entire main section element */
+{
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+	box-shadow: inset rgba(0, 0, 0, 0.3) -5px -5px 10px;
+}
+
+section#main table /*creates a drop shadow on the web table in the main section */
+{
+	-moz-box-shadow: black 5px 5px 5px;
+	-webkit-box-shadow: black 5px 5px 5px;
+	box-shadow: black 5px 5px 5px;
+}
+
+/* Rotate styles by|| transform: rotate(angle); */
+
+figure#photo4
+{
+	-o-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+}
+
+figure#photo5
+{
+	-o-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+
+/* Style rule to add a dark green vertical gradient to the background for the article element||
+background: gradient(start color, mid color %start after first color, final color %start after last color);*/
+
+article
+{
+	background: -o-linear-gradient(black, rgb(51, 101, 51) 20%, white 80%);
+	background: -ms-linear-gradient(black, rgb(51, 101, 51) 20%, white 80%);
+	background: -moz-linear-gradient(black, rgb(51, 101, 51) 20%, white 80%);
+	background: -webkit-linear-gradient(black, rgb(51, 101, 51) 20%, white 80%);
+	background: linear-gradient(black, rgb(51, 101, 51) 20%, white 80%);
+}
+
+/*Border image style|| border-image: url(url) slice size of cut from the border image repeat whether the border slices should be stretched or tiled to cover the image */
+
+article img
+{
+	border-width: 10px;
+	
+	-o-border-image: url("borderimg.png") 50 repeat;
+	-moz-border-image: url("borderimg.png") 50 repeat;
+	-webkit-border-image: url("borderimg.png") 50 repeat;
+	border-image: url("borderimg.png") 50 repeat;
+}
+
+/*Styles for semi-transparent images|| opacity: 0-1; 0 being transparent 1 being opaque */
+
+figure#photo4, figure#photo5
+{
+	opacity: 0.7;
+}

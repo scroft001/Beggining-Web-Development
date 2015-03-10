@@ -1,0 +1,52 @@
+   /* Main section navigation list styles */
+
+   section#main nav {
+      float: left;
+      width: 20%;
+   }
+
+   section#main nav li {
+      background-color: rgb(90, 127, 0);
+      border: 1px solid rgb(18, 15, 12);
+      display: block;
+      font-size: 12px;
+      height: 30px;
+      width: 100%;
+   }
+
+   section#main nav li a {
+      color:white;
+   }
+
+
+   /* h1 heading styles */
+
+   section#main h1 {
+      margin: 0px 0px 10px 25%;
+      font-size: 14px;
+      text-align: center;
+      padding-top: 5px;
+   }
+
+   /* Article styles */
+   
+   article {
+      margin: 0px 5% 0px 25%;
+      width: 70%;
+   }
+
+   article img {
+      width: 100%;
+   }
+
+
+   /* Figure box styles */
+
+   figure {
+      margin: 20px 5% 20px 25%;
+      width: 70%;
+   }
+
+   figure img {
+      width: 100%;
+   }

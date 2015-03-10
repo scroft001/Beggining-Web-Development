@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+      New Perspectives on HTML and CSS
+      Tutorial 8
+      Tutorial Case
+
+      Tree and Book Sample Page
+      Author: 
+      Date:   
+
+      Filename:         treebook.htm
+      Supporting files: base.css, borderimg.png, dubcek.png, effect.css,
+                        gradients.txt, graybar.png, landscape.txt, layout.css, mobile.css,
+                        modernizr-1.5.js, photo1.png - photo5.png, portrait.txt, print.css,
+                        rotate_ie.css, tblogo.png, tblogo_sm.png
+                        
+
+   -->
+
+      <meta charset="UTF-8" />
+
+      <title>Tree and Book</title>
+      <script src="modernizr-1.5.js"></script>
+
+      
+      <link href="base.css" rel="stylesheet" />
+      <link href="layout.css" rel="stylesheet" />
+
+
+   </head>
+
+   <body>
+      <header>
+         <h1>Tree and Book</h1>
+         <nav class="horizontal">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My Family</a></li>
+            <li><a href="#">Geneology FAQ</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Search</a></li>
+         </nav>
+      </header>
+
+      <section id="page">
+
+         <nav class="vertical">
+            <img src="dubcek.png" alt="" />
+            <ul>
+               <li class="group"><a href="#">The Dubcek Family</a></li>
+               <li class="sub"><a href="#">Stanislaw (1903 - 1981)</a></li>
+               <li class="sub"><a href="#">Irena (1910 - 2005)</a></li>
+               <li class="sub"><a href="#">Peter (1931 - 2002)</a></li>
+               <li class="sub"><a href="#">Nadine (1932 - 2009)</a></li>
+               <li class="sub"><a href="#">Robert (1934 - )</a></li>
+               <li class="sub"><a href="#">Vera (1936 - )</a></li>
+               <li class="sub"><a href="#">Karen (1939 - 2001)</a></li>
+               <li class="sub"><a href="#">Jan (1944 - )</a></li>
+
+               <li class="group"><a href="#">Family Album</a></li>
+               <li><a href="#">Family Tree</a></li>
+               <li><a href="#">Galleries</a></li>
+               <li><a href="#">Archival Records</a></li>
+               <li><a href="#">Timeline</a></li>
+               <li><a href="#">Articles</a></li>
+               <li><a href="#">Story Book</a></li>
+               <li><a href="#">Message Board</a></li>
+
+               <li class="group"><a href="#">Extended Family</a></li>
+
+               <li class="group"><a href="#">Links</a></li>                  
+            </ul>
+         </nav>
+
+         <section id="main">
+
+            <nav class="horizontal">
+               <ul>
+                  <li><a href="#">Cover Page</a></li>
+                  <li><a href="#">Biography</a></li>
+                  <li><a href="#">Stories</a></li>
+                  <li><a href="#">Photos</a></li>
+                  <li><a href="#">Clippings</a></li>
+               </ul>
+            </nav>
+
+            <h1>Stanislaw Dubcek (1903 - 1981)</h1>
+                   
+            <article>
+               <img id="photo1" src="photo1.png" alt="" />
+
+               <table>
+                  <tr>
+                     <th>Born</th>
+                     <td>February 3, 1903 <br />(Hnatince, Bohemia)</td>
+                  </tr>
+                  <tr>
+                     <th>Died</th>
+                     <td>September 20, 1981 <br />(Rochester, MN)</td>
+                  </tr>
+                  <tr>
+                     <th>Married</th>
+                     <td>Irena (Torbia); June 2, 1929</td>
+                  </tr>
+                  <tr>
+                     <th>Children</th>
+                     <td>Peter, Nadine, Robert, Vera, Karen, Jan</td>
+                  </tr>
+               </table>
+
+            </article>
+
+            <figure id="photo2">
+               <figcaption>Stanislaw and Irena (1929)</figcaption>
+               <img src="photo2.png" alt="" />
+            </figure>
+
+            <figure id="photo3">
+               <figcaption>At work (1947)</figcaption>
+               <img src="photo3.png" alt="" />
+            </figure>
+
+            <figure id="photo4">
+               <img src="photo4.png" alt="" />
+               <figcaption>Family portrait (1918)</figcaption>
+            </figure>
+
+            <figure id="photo5">
+               <img src="photo5.png" alt="" />
+               <figcaption>Family portrait (1953)</figcaption>
+            </figure>
+
+            <footer>
+               Tree and Book &copy; 2014 English (US)
+               <span>
+                  <a href="#">About</a>
+                  <a href="#">Developers</a>
+                  <a href="#">Privacy</a>
+                  <a href="#">Terms</a>
+                  <a href="#">Help</a>
+               </span>
+            </footer>
+
+         </section>
+
+      </section>
+
+   </body>
+
+</html>

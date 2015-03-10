@@ -1,0 +1,54 @@
+   /* Main section navigation list styles */
+
+   section#main nav {
+      width: 100%;
+   }
+
+   section#main nav li {
+      background-color: rgb(90, 127, 0);
+      display: block;
+      float: left;
+      font-size: 12px;
+      line-height: 30px;
+      height: 30px;
+      outline: 1px solid rgb(18, 15, 12);
+      text-align: center;
+      width: 20%;
+   }
+
+   section#main nav li a {
+      color:white;
+   }
+
+
+   /* h1 heading styles */
+
+   section#main h1 {
+      margin: 0px 0px 10px 0px;
+      font-size: 18px;
+      text-align: center;
+   }
+   
+   /* Article styles */
+
+   article {
+      margin: 0px auto;
+      width: 60%;
+   }
+
+   article img {
+      width: 100%;
+   }
+
+
+   /* Figure box styles */
+   
+   figure {
+      float: left;
+      margin: 10px 2.5%;
+      width: 45%;
+   }
+
+   figure img {
+      width: 100%;
+   }

@@ -1,0 +1,154 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Tutorial Case
+
+   Mobile Styles
+   Author: Steven Croft
+   Date:   June 2014
+
+   Filename:         mobile.css
+   Supporting Files: tblogo_sm.png, portrait.txt, landscape.txt
+
+*/
+
+/* Styles to be used with mobile devices */
+
+/* Hide page elements that will not be displayed */
+
+header h1, header nav, section nav.vertical, footer
+{
+	display: none;
+}
+
+/* Header styles */
+header
+{
+	background: rgb(18, 15, 12) url(tblogo_sm.png) center center no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+	
+	height: 50px;
+	width: 100%;
+}
+
+/* Mobile styles under portrait orentation */
+
+@media screen and (orientation: portrait)
+{
+	/* Main section navigation list styles */
+	
+	   section#main nav {
+	      float: left;
+	      width: 20%;
+	   }
+	
+	   section#main nav li {
+	      background-color: rgb(90, 127, 0);
+	      border: 1px solid rgb(18, 15, 12);
+	      display: block;
+	      font-size: 12px;
+	      height: 30px;
+	      width: 100%;
+	   }
+	
+	   section#main nav li a {
+	      color:white;
+	   }
+	
+	
+	   /* h1 heading styles */
+	
+	   section#main h1 {
+	      margin: 0px 0px 10px 25%;
+	      font-size: 14px;
+	      text-align: center;
+	      padding-top: 5px;
+	   }
+	
+	   /* Article styles */
+	   
+	   article {
+	      margin: 0px 5% 0px 25%;
+	      width: 70%;
+	   }
+	
+	   article img {
+	      width: 100%;
+	   }
+	
+	
+	   /* Figure box styles */
+	
+	   figure {
+	      margin: 20px 5% 20px 25%;
+	      width: 70%;
+	   }
+	
+	   figure img {
+	      width: 100%;
+	   }
+}
+
+/* Mobile styles under landscape orientation */
+
+@media screen and (orientation: landscape)
+{
+	   /* Main section navigation list styles */
+	
+	   section#main nav {
+	      width: 100%;
+	   }
+	
+	   section#main nav li {
+	      background-color: rgb(90, 127, 0);
+	      display: block;
+	      float: left;
+	      font-size: 12px;
+	      line-height: 30px;
+	      height: 30px;
+	      outline: 1px solid rgb(18, 15, 12);
+	      text-align: center;
+	      width: 20%;
+	   }
+	
+	   section#main nav li a {
+	      color:white;
+	   }
+	
+	
+	   /* h1 heading styles */
+	
+	   section#main h1 {
+	      margin: 0px 0px 10px 0px;
+	      font-size: 18px;
+	      text-align: center;
+	   }
+	   
+	   /* Article styles */
+	
+	   article {
+	      margin: 0px auto;
+	      width: 60%;
+	   }
+	
+	   article img {
+	      width: 100%;
+	   }
+	
+	
+	   /* Figure box styles */
+	   
+	   figure {
+	      float: left;
+	      margin: 10px 2.5%;
+	      width: 45%;
+	   }
+	
+	   figure img {
+	      width: 100%;
+  	   }
+}
